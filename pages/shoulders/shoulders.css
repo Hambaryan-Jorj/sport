@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+      background: #0c284a61 url(shoulders.jpg)no-repeat center top / cover ;
+}    
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+
+.btns{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.btn_home {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    background: #0c284a61;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 20px;
+    /* display: block; */
+    width: 130px;
+    text-transform: uppercase;
+}
+
+.btn_triceps {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    background: #0c284a61;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 20px;
+    /* display: block; */
+    width: 130px;
+    text-transform: uppercase;
+}
+
+.logo{
+    height: 70px;
+}
+
+.nav{
+    padding-top: 40px;
+}
+
+
+.title{
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+}
+
+.text {
+    color: #fff;
+}
+
+
+.text p:last-child{
+    margin-bottom: 0px;
+}
+
+
+@media screen and (max-width: 1185px){
+    .container {
+        width: 1000px;
+    }
+}
+
+
+@media screen and (max-width: 1025px){
+    .container {
+        width: 900px;
+    }
+}
+
+
+@media screen and (max-width: 925px){
+    .container {
+        width: 800px;
+    }
+}
+
+
+@media screen and (max-width: 825px){
+    .container {
+        width: 700px;
+    }
+}
+
+
+@media screen and (max-width: 725px){
+    .container {
+        width: 600px;
+    }
+    .element.style {
+        font-size: 50px;
+    }
+}
+
+
+@media screen and (max-width: 625px){
+    .container {
+        width: 500px;
+    }
+}
+
+
+@media screen and (max-width: 525px){
+    .container {
+        width: 400px;
+    }
+}
+
+
+@media screen and (max-width: 425px){
+    .container {
+        width: 300px;
+    }
+}
+
+
+@media screen and (max-width: 350px){
+    .container {
+        width: 325px;
+    }
+}
