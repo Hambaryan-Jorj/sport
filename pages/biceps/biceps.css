@@ -137,6 +137,9 @@ body {
     .container {
         width: 325px;
     }
+    .title {
+        font-size: 25px;
+    }
 }
 
 
@@ -147,5 +150,7 @@ body {
     .logo{
         height: 29px;
     }
+
 }
+
 

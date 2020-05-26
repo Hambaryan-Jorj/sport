@@ -127,15 +127,22 @@ body {
 }
 
 
-@media screen and (max-width: 425px){
-    .container {
-        width: 300px;
-    }
-}
-
-
 @media screen and (max-width: 350px){
     .container {
         width: 325px;
     }
+    .title {
+        font-size: 25px;
+    }
+}
+
+
+@media screen and (max-width: 333px){
+    .container {
+        width: 250px;
+    }
+    .logo{
+        height: 29px;
+    }
+
 }
