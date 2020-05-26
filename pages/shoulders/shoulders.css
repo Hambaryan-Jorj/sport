@@ -120,9 +120,12 @@ body {
 }
 
 
-@media screen and (max-width: 525px){
+@media screen and (max-width: 425px){
     .container {
-        width: 400px;
+        width: 300px;
+    }
+    .title {
+        font-size: 25px;
     }
 }
 
@@ -130,9 +133,6 @@ body {
 @media screen and (max-width: 350px){
     .container {
         width: 325px;
-    }
-    .title {
-        font-size: 25px;
     }
 }
 
