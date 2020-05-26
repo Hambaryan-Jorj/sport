@@ -138,3 +138,14 @@ body {
         width: 325px;
     }
 }
+
+
+@media screen and (max-width: 333px){
+    .container {
+        width: 250px;
+    }
+    .logo{
+        height: 29px;
+    }
+}
+
