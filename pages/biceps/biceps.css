@@ -5,6 +5,7 @@ body {
 
 .header {
       background: #0c284a61 url(biceps.jpg)no-repeat center top / cover ;
+      min-width: 100vh;
 }    
 
 .container {

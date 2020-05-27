@@ -284,7 +284,7 @@ body {
     .botton {
        font-size: 14px;
        width: 200px;
-       margin-left: -100px;
+       margin-left: -115px;
        padding: 20px;
        top: 65%;
     }
@@ -330,3 +330,36 @@ body {
     }
 }
 
+
+@media screen and (max-width: 360px){
+     .container {
+        width: 300px;
+     }
+     .intro_content{
+        padding-top: 0.5%;
+     }  
+     .intro a {
+        font-size: 16px;
+    }
+}
+
+
+@media screen and (max-width: 316px){
+    .intro_content li {
+        margin-bottom: 10px;
+    }
+    .intro_content{
+        padding-left: 55%;
+    } 
+}
+
+@media screen and (max-width: 307px){
+    .container {
+        width: 280px;
+    }
+    .title {
+       font-size: 28px;
+       width: 286px;
+       margin-left: -143px;
+    } 
+}
